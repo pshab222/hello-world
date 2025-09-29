@@ -1,0 +1,5 @@
+Bundle-Name: myblue-portal-mobileapp-portlet-test
+Bundle-SymbolicName: myblue.portal.mobileapp.portlet.test
+Bundle-Version: 1.0.0
+-includeresource: myblue.portal.mobileapp.portlet.client.jar=../myblue-portal-mobileapp-portlet-client/build/libs/myblue.portal.mobileapp.portlet.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}

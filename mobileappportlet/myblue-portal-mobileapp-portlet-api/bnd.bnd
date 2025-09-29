@@ -1,0 +1,6 @@
+Bundle-Name: myblue-portal-mobileapp-portlet-api
+Bundle-SymbolicName: myblue.portal.mobileapp.portlet.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	myblue.portal.mobileapp.portlet.dto.v1_0,\
+	myblue.portal.mobileapp.portlet.resource.v1_0
