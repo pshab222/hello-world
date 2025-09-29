@@ -1,0 +1,9 @@
+apiDir: "../myblue-portal-mobileapp-rest-api/src/main/java"
+apiPackagePath: "org.fepblue.rest"
+application:
+    baseURI: "/myblue-portal-mobileapp-rest"
+    className: "MybluePortalMobileappRestApplication"
+    name: "MybluePortalMobileappRest"
+author: "payam"
+clientDir: "../myblue-portal-mobileapp-rest-client/src/main/java"
+testDir: "../myblue-portal-mobileapp-rest-test/src/testIntegration/java"

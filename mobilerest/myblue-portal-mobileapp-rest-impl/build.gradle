@@ -1,0 +1,7 @@
+dependencies {
+	api project(":modules:myblue-portal-mobileapp-rest:myblue-portal-mobileapp-rest-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+group = "org.fepblue.rest"

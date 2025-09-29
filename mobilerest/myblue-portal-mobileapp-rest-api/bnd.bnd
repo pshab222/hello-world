@@ -1,0 +1,6 @@
+Bundle-Name: myblue-portal-mobileapp-rest-api
+Bundle-SymbolicName: org.fepblue.rest.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	org.fepblue.rest.dto.v1_0,\
+	org.fepblue.rest.resource.v1_0

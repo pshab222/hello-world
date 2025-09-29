@@ -1,0 +1,3 @@
+Bundle-Name: myblue-portal-mobileapp-rest-impl
+Bundle-SymbolicName: org.fepblue.rest.impl
+Bundle-Version: 1.0.0

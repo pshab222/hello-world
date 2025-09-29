@@ -1,0 +1,5 @@
+Bundle-Name: myblue-portal-mobileapp-rest-test
+Bundle-SymbolicName: org.fepblue.rest.test
+Bundle-Version: 1.0.0
+-includeresource: org.fepblue.rest.client.jar=../myblue-portal-mobileapp-rest-client/build/libs/org.fepblue.rest.client-1.0.0.jar;lib:=true
+-provider-policy: ${replacestring;${range;[==,==]};.*,(.*)];$1}
