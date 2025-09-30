@@ -1,0 +1,7 @@
+Bundle-Name: myblue-portal-mobileapp-swagger
+Bundle-SymbolicName: myblue.portal.mobileapp.swagger
+Bundle-Version: 1.0.0
+Export-Package: myblue.portal.mobileapp.swagger.constants
+Provide-Capability:\
+	liferay.language.resources;\
+		resource.bundle.base.name="content.Language"
