@@ -1,0 +1,12 @@
+dependencies {
+	api project(":modules:myblue-external-db-module:myblue-external-db-module-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../myblue-external-db-module-api/src/main/java"
+	testDir = "../myblue-external-db-module-test/src/testIntegration/java"
+}
+
+group = "myblue.external.db.module"

@@ -1,0 +1,10 @@
+Bundle-Name: myblue-external-db-module-api
+Bundle-SymbolicName: myblue.external.db.module.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	myblue.external.db.module.exception,\
+	myblue.external.db.module.model,\
+	myblue.external.db.module.service,\
+	myblue.external.db.module.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../myblue-external-db-module-service/service.xml
