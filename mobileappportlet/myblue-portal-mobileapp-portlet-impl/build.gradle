@@ -1,7 +1,0 @@
-dependencies {
-	api project(":modules:myblue-portal-mobileapp-portlet:myblue-portal-mobileapp-portlet-api")
-
-	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
-}
-
-group = "myblue.portal.mobileapp.portlet"
